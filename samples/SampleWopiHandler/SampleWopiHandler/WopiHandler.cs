@@ -312,6 +312,7 @@ namespace SampleWopiHandler
 					BaseFileName = Path.GetFileName(requestData.FullPath),
 					OwnerId = "documentOwnerId",
 					Size = (int)fileInfo.Length,
+                    UserId = "user@contoso.com",
 					//Version = @"2017 - 12 - 28T16:53:07.7811341Z",
 					Version = fileInfo.LastWriteTimeUtc.ToString("O" /* ISO 8601 DateTime format string */), // Using the file write time is an arbitrary choice.
 
@@ -320,6 +321,8 @@ namespace SampleWopiHandler
 					BreadcrumbBrandName = "LocalStorage WOPI Host",
 					BreadcrumbFolderName = fileInfo.Directory != null ? fileInfo.Directory.Name : "",
 					BreadcrumbDocName = Path.GetFileNameWithoutExtension(requestData.FullPath),
+                    BreadcrumbBrandUrl = "http://" + context.Request.Url.Host,
+                    BreadcrumbFolderUrl = "http://" + context.Request.Url.Host,
 
 					UserFriendlyName = "A WOPI User",
 
@@ -385,6 +388,7 @@ namespace SampleWopiHandler
 			{
 				// transmit file from local storage to the response stream.
 				context.Response.TransmitFile(requestData.FullPath);
+                context.Response.AddHeader(WopiHeaders.ItemVersion, GetFileVersion(requestData.FullPath));
 				ReturnSuccess(context.Response);
 			}
 			catch (UnauthorizedAccessException)
@@ -396,6 +400,12 @@ namespace SampleWopiHandler
 				ReturnFileUnknown(context.Response);
 			}
 		}
+
+        private static string GetFileVersion(string filename)
+        {
+            FileInfo fileInfo = new FileInfo(filename);
+            return fileInfo.LastWriteTimeUtc.ToString("O" /* ISO 8601 DateTime format string */); // Using the file write time is an arbitrary choice.
+        }
 
 		/// <summary>
 		/// Processes a PutRelativeFile request
@@ -562,6 +572,7 @@ namespace SampleWopiHandler
 				{
 					context.Request.InputStream.CopyTo(fileStream);
 				}
+                context.Response.AddHeader(WopiHeaders.ItemVersion, GetFileVersion(requestData.FullPath));
 			}
 			catch (UnauthorizedAccessException)
 			{
@@ -613,12 +624,10 @@ namespace SampleWopiHandler
 			lock (Locks)
 			{
 				LockInfo existingLock;
-				if (TryGetLock(requestData.Id, out existingLock))
+                bool fLocked = TryGetLock(requestData.Id, out existingLock);
+                if (fLocked && existingLock.Lock != newLock)
 				{
-					// There is a valid existing lock on the file
-
-					// Regardless of whether the new lock matches the existing lock, this should be treated as a lock mismatch
-					// per the documentation: https://wopi.readthedocs.org/en/latest/wopi/files/Lock.html
+                    // There is a valid existing lock on the file and it doesn't match the requested lockstring.
 
 					// This is a fairly common case and shouldn't be tracked as an error.  Office Online can store
 					// information about a current session in the lock value and expects to conflict when there's
@@ -627,12 +636,15 @@ namespace SampleWopiHandler
 				}
 				else
 				{
-					// The file is not currently locked or the lock has already expired
+                    // The file is not currently locked or the lock has already expired or existing lock matches the requested lock.
+                     if (fLocked)
+                        Locks.Remove(requestData.Id);
 
 					// Create and store new lock information
 					// TODO: In a real implementation the lock should be stored in a persisted and shared system.
 					Locks[requestData.Id] = new LockInfo() { DateCreated = DateTime.UtcNow, Lock = newLock };
 
+                    context.Response.AddHeader(WopiHeaders.ItemVersion, GetFileVersion(requestData.FullPath));
 					// Return success
 					ReturnSuccess(context.Response);
 				}
@@ -722,6 +734,7 @@ namespace SampleWopiHandler
 
 						// Remove the current lock
 						Locks.Remove(requestData.Id);
+                        context.Response.AddHeader(WopiHeaders.ItemVersion, GetFileVersion(requestData.FullPath));
 						ReturnSuccess(context.Response);
 					}
 					else
@@ -825,7 +838,8 @@ namespace SampleWopiHandler
 			// TODO: Access token validation is not implemented in this sample.
 			// For more details on access tokens, see the documentation
 			// https://wopi.readthedocs.org/en/latest/concepts.html#term-access-token
-			return !String.IsNullOrWhiteSpace(requestData.AccessToken);
+            // "INVALID" is used by the WOPIValidator.
+            return !String.IsNullOrWhiteSpace(requestData.AccessToken) && (requestData.AccessToken != "INVALID");
 		}
 
 		private static void ReturnSuccess(HttpResponse response)
