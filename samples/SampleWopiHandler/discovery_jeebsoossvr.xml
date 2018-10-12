@@ -1,0 +1,711 @@
+<wopi-discovery>
+	<net-zone name="internal-http">
+		<app name="Excel" favIconUrl="http://jeebsoossvr/x/_layouts/resources/FavIcon_Excel.ico" checkLicense="true">
+			<action name="view" ext="csv" default="true" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="ods" default="true" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="xls" default="true" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="xlsb" default="true" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="xlsm" default="true" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="xlsx" default="true" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="edit" ext="ods" requires="update" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?edit=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="edit" ext="xlsb" requires="update" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?edit=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="edit" ext="xlsm" requires="update" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?edit=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="edit" ext="xlsx" requires="update" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?edit=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="editnew" ext="xlsx" requires="update" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?edit=1&new=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="interactivepreview" ext="xlsb" urlsrc="http://jeebsoossvr/x/_layouts/xlpreview.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="interactivepreview" ext="xlsm" urlsrc="http://jeebsoossvr/x/_layouts/xlpreview.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="interactivepreview" ext="xlsx" urlsrc="http://jeebsoossvr/x/_layouts/xlpreview.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="csv" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="xls" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="xlsb" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="xlsm" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="xlsx" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="xlsb" urlsrc="http://jeebsoossvr/x/_layouts/xlembed.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="xlsm" urlsrc="http://jeebsoossvr/x/_layouts/xlembed.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="xlsx" urlsrc="http://jeebsoossvr/x/_layouts/xlembed.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="convert" ext="csv" targetext="xlsx" requires="update" urlsrc="http://jeebsoossvr/x/_layouts/ExcelConvertAndEdit.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="convert" ext="xls" targetext="xlsx" requires="update" urlsrc="http://jeebsoossvr/x/_layouts/ExcelConvertAndEdit.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="formsubmit" ext="xlsb" urlsrc="http://jeebsoossvr/x/_layouts/xlform.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="formsubmit" ext="xlsm" urlsrc="http://jeebsoossvr/x/_layouts/xlform.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="formsubmit" ext="xlsx" urlsrc="http://jeebsoossvr/x/_layouts/xlform.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="formedit" ext="xlsb" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?edit=1&startupDialog=FormEdit&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="formedit" ext="xlsm" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?edit=1&startupDialog=FormEdit&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="formedit" ext="xlsx" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?edit=1&startupDialog=FormEdit&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="rest" ext="xlsb" urlsrc="http://jeebsoossvr/x/_layouts/xlrestinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="rest" ext="xlsm" urlsrc="http://jeebsoossvr/x/_layouts/xlrestinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="rest" ext="xlsx" urlsrc="http://jeebsoossvr/x/_layouts/xlrestinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="syndicate" ext="ods" urlsrc="http://jeebsoossvr/x/_layouts/exceljs.ashx?v=1&dsipb=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="syndicate" ext="xlsb" urlsrc="http://jeebsoossvr/x/_layouts/exceljs.ashx?v=1&dsipb=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="syndicate" ext="xlsm" urlsrc="http://jeebsoossvr/x/_layouts/exceljs.ashx?v=1&dsipb=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="syndicate" ext="xlsx" urlsrc="http://jeebsoossvr/x/_layouts/exceljs.ashx?v=1&dsipb=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="legacywebservice" progid="Excel.LegacyWebService" urlsrc="http://jeebsoossvr/x/_vti_bin/excelserviceinternal.asmx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="legacywebservice" ext="ods" urlsrc="http://jeebsoossvr/x/_vti_bin/excelserviceinternal.asmx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="legacywebservice" ext="xlsb" urlsrc="http://jeebsoossvr/x/_vti_bin/excelserviceinternal.asmx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="legacywebservice" ext="xlsm" urlsrc="http://jeebsoossvr/x/_vti_bin/excelserviceinternal.asmx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="legacywebservice" ext="xlsx" urlsrc="http://jeebsoossvr/x/_vti_bin/excelserviceinternal.asmx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="rtc" ext="ods" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="xls" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="xlsb" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="xlsm" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="xlsx" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="preloadedit" ext="ods" urlsrc="http://jeebsoossvr/x/StaticLoad.aspx?wx=x&wv=e&usescript=1&"<ui=UI_LLCC="">
+				"/>
+				<action name="preloadedit" ext="xlsb" urlsrc="http://jeebsoossvr/x/StaticLoad.aspx?wx=x&wv=e&usescript=1&"<ui=UI_LLCC="">
+					"/>
+					<action name="preloadedit" ext="xlsm" urlsrc="http://jeebsoossvr/x/StaticLoad.aspx?wx=x&wv=e&usescript=1&"<ui=UI_LLCC="">
+						"/>
+						<action name="preloadedit" ext="xlsx" urlsrc="http://jeebsoossvr/x/StaticLoad.aspx?wx=x&wv=e&usescript=1&"<ui=UI_LLCC="">
+							"/>
+							<action name="preloadview" ext="ods" urlsrc="http://jeebsoossvr/x/StaticLoad.aspx?wx=x&wv=v&usescript=1&"<ui=UI_LLCC="">
+								"/>
+								<action name="preloadview" ext="xls" urlsrc="http://jeebsoossvr/x/StaticLoad.aspx?wx=x&wv=v&usescript=1&"<ui=UI_LLCC="">
+									"/>
+									<action name="preloadview" ext="xlsb" urlsrc="http://jeebsoossvr/x/StaticLoad.aspx?wx=x&wv=v&usescript=1&"<ui=UI_LLCC="">
+										"/>
+										<action name="preloadview" ext="xlsm" urlsrc="http://jeebsoossvr/x/StaticLoad.aspx?wx=x&wv=v&usescript=1&"<ui=UI_LLCC="">
+											"/>
+											<action name="preloadview" ext="xlsx" urlsrc="http://jeebsoossvr/x/StaticLoad.aspx?wx=x&wv=v&usescript=1&"<ui=UI_LLCC="">
+												"/>
+												<action name="collab" ext="xlsx" urlsrc="http://jeebsoossvr/ocs/Join.ashx?app=excel"/>
+												<action name="formpreview" ext="xlsb" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?edit=1&startupDialog=FormPreview&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+												<action name="formpreview" ext="xlsm" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?edit=1&startupDialog=FormPreview&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+												<action name="formpreview" ext="xlsx" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?edit=1&startupDialog=FormPreview&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+												<action name="documentchat" ext="ods" urlsrc="http://jeebsoossvr/x/_layouts/SkypeProxy.ashx"/>
+												<action name="documentchat" ext="xls" urlsrc="http://jeebsoossvr/x/_layouts/SkypeProxy.ashx"/>
+												<action name="documentchat" ext="xlsb" urlsrc="http://jeebsoossvr/x/_layouts/SkypeProxy.ashx"/>
+												<action name="documentchat" ext="xlsm" urlsrc="http://jeebsoossvr/x/_layouts/SkypeProxy.ashx"/>
+												<action name="documentchat" ext="xlsx" urlsrc="http://jeebsoossvr/x/_layouts/SkypeProxy.ashx"/>
+												<action name="embedpreview" ext="xlsb" urlsrc="http://jeebsoossvr/x/_layouts/xlembedpreview.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+												<action name="embedpreview" ext="xlsm" urlsrc="http://jeebsoossvr/x/_layouts/xlembedpreview.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+												<action name="embedpreview" ext="xlsx" urlsrc="http://jeebsoossvr/x/_layouts/xlembedpreview.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+												<action name="embedconfigurator" ext="xlsb" urlsrc="http://jeebsoossvr/x/_layouts/xlembedconfigurator.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+												<action name="embedconfigurator" ext="xlsm" urlsrc="http://jeebsoossvr/x/_layouts/xlembedconfigurator.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+												<action name="embedconfigurator" ext="xlsx" urlsrc="http://jeebsoossvr/x/_layouts/xlembedconfigurator.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+											</app>
+		<app name="OneNote" favIconUrl="http://jeebsoossvr/o/resources/1033/FavIcon_OneNote.ico" checkLicense="true">
+			<action name="view" progid="OneNote.Notebook" requires="cobalt,containers" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?edit=0&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="view" ext="one" requires="cobalt,containers" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?edit=0&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="view" ext="onetoc2" useParent="true" requires="cobalt,containers" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?edit=0&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="edit" progid="OneNote.Notebook" default="true" requires="cobalt,containers,update" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="edit" ext="one" default="true" requires="cobalt,containers,update" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="edit" ext="onetoc2" useParent="true" default="true" requires="cobalt,containers,update" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="editnew" progid="OneNote.Notebook" requires="cobalt,containers,update" newprogid="OneNote.Notebook" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?edit=1&new=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="editnew" ext="one" requires="cobalt,containers,update" newprogid="OneNote.Notebook" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?edit=1&new=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="editnew" ext="onepkg" requires="cobalt,containers,update" newprogid="OneNote.Notebook" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?edit=1&new=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embedview" progid="OneNote.Notebook" requires="cobalt,containers,update" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?embed=1&edit=0&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embedview" ext="one" requires="cobalt,containers,update" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?embed=1&edit=0&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embedview" ext="onetoc2" useParent="true" requires="cobalt,containers,update" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?embed=1&edit=0&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embededit" ext="onetoc2" useParent="true" requires="cobalt,containers,update" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?embed=1&edit=1&singlepage=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="rtc" ext="one" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="onetoc2" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="preloadedit" ext="one" urlsrc="http://jeebsoossvr/o/StaticLoad.aspx?wx=o&wv=e&usescript=1&"<ui=UI_LLCC="">
+				"/>
+				<action name="preloadedit" ext="onetoc2" urlsrc="http://jeebsoossvr/o/StaticLoad.aspx?wx=o&wv=e&usescript=1&"<ui=UI_LLCC="">
+					"/>
+					<action name="preloadview" ext="one" urlsrc="http://jeebsoossvr/o/StaticLoad.aspx?wx=o&wv=v&usescript=1&"<ui=UI_LLCC="">
+						"/>
+						<action name="preloadview" ext="onetoc2" urlsrc="http://jeebsoossvr/o/StaticLoad.aspx?wx=o&wv=v&usescript=1&"<ui=UI_LLCC="">
+							"/>
+							<action name="documentchat" ext="one" urlsrc="http://jeebsoossvr/o/SkypeProxy.ashx"/>
+							<action name="documentchat" ext="onetoc2" urlsrc="http://jeebsoossvr/o/SkypeProxy.ashx"/>
+						</app>
+		<app name="PowerPoint" favIconUrl="http://jeebsoossvr/p/resources/1033/FavIcon_Ppt.ico" checkLicense="true">
+			<action name="view" ext="odp" default="true" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="pot" default="true" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="potm" default="true" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="potx" default="true" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="pps" default="true" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="ppsm" default="true" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="ppsx" default="true" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="ppt" default="true" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="pptm" default="true" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="pptx" default="true" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="edit" ext="odp" requires="update" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=EditView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="edit" ext="ppsx" requires="update" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=EditView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="edit" ext="pptx" requires="update" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=EditView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="editnew" ext="odp" requires="update" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=EditView&New=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="editnew" ext="pptx" requires="update" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=EditView&New=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="imagepreview" ext="odp" urlsrc="http://jeebsoossvr/p/previewhandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="imagepreview" ext="pot" urlsrc="http://jeebsoossvr/p/previewhandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="imagepreview" ext="potm" urlsrc="http://jeebsoossvr/p/previewhandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="imagepreview" ext="potx" urlsrc="http://jeebsoossvr/p/previewhandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="imagepreview" ext="pps" urlsrc="http://jeebsoossvr/p/previewhandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="imagepreview" ext="ppsm" urlsrc="http://jeebsoossvr/p/previewhandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="imagepreview" ext="ppsx" urlsrc="http://jeebsoossvr/p/previewhandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="imagepreview" ext="ppt" urlsrc="http://jeebsoossvr/p/previewhandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="imagepreview" ext="pptm" urlsrc="http://jeebsoossvr/p/previewhandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="imagepreview" ext="pptx" urlsrc="http://jeebsoossvr/p/previewhandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="interactivepreview" ext="odp" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="interactivepreview" ext="pot" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="interactivepreview" ext="potm" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="interactivepreview" ext="potx" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="interactivepreview" ext="pps" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="interactivepreview" ext="ppsm" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="interactivepreview" ext="ppsx" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="interactivepreview" ext="ppt" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="interactivepreview" ext="pptm" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="interactivepreview" ext="pptx" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="pot" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="potm" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="potx" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="pps" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="ppsm" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="ppsx" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="ppt" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="pptm" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="pptx" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="odp" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="pot" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="potm" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="potx" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="pps" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="ppsm" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="ppsx" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="ppt" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="pptm" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="pptx" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="present" ext="pot" urlsrc="http://jeebsoossvr/m/Presenter.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="present" ext="potm" urlsrc="http://jeebsoossvr/m/Presenter.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="present" ext="potx" urlsrc="http://jeebsoossvr/m/Presenter.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="present" ext="pps" urlsrc="http://jeebsoossvr/m/Presenter.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="present" ext="ppsm" urlsrc="http://jeebsoossvr/m/Presenter.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="present" ext="ppsx" urlsrc="http://jeebsoossvr/m/Presenter.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="present" ext="ppt" urlsrc="http://jeebsoossvr/m/Presenter.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="present" ext="pptm" urlsrc="http://jeebsoossvr/m/Presenter.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="present" ext="pptx" urlsrc="http://jeebsoossvr/m/Presenter.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="presentservice" ext="pot" urlsrc="http://jeebsoossvr/m/present_2_0.asmx"/>
+			<action name="presentservice" ext="potm" urlsrc="http://jeebsoossvr/m/present_2_0.asmx"/>
+			<action name="presentservice" ext="potx" urlsrc="http://jeebsoossvr/m/present_2_0.asmx"/>
+			<action name="presentservice" ext="pps" urlsrc="http://jeebsoossvr/m/present_2_0.asmx"/>
+			<action name="presentservice" ext="ppsm" urlsrc="http://jeebsoossvr/m/present_2_0.asmx"/>
+			<action name="presentservice" ext="ppsx" urlsrc="http://jeebsoossvr/m/present_2_0.asmx"/>
+			<action name="presentservice" ext="ppt" urlsrc="http://jeebsoossvr/m/present_2_0.asmx"/>
+			<action name="presentservice" ext="pptm" urlsrc="http://jeebsoossvr/m/present_2_0.asmx"/>
+			<action name="presentservice" ext="pptx" urlsrc="http://jeebsoossvr/m/present_2_0.asmx"/>
+			<action name="attend" ext="pot" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="attend" ext="potm" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="attend" ext="potx" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="attend" ext="pps" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="attend" ext="ppsm" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="attend" ext="ppsx" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="attend" ext="ppt" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="attend" ext="pptm" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="attend" ext="pptx" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="attendservice" ext="pot" urlsrc="http://jeebsoossvr/m/met/participant.svc"/>
+			<action name="attendservice" ext="potm" urlsrc="http://jeebsoossvr/m/met/participant.svc"/>
+			<action name="attendservice" ext="potx" urlsrc="http://jeebsoossvr/m/met/participant.svc"/>
+			<action name="attendservice" ext="pps" urlsrc="http://jeebsoossvr/m/met/participant.svc"/>
+			<action name="attendservice" ext="ppsm" urlsrc="http://jeebsoossvr/m/met/participant.svc"/>
+			<action name="attendservice" ext="ppsx" urlsrc="http://jeebsoossvr/m/met/participant.svc"/>
+			<action name="attendservice" ext="ppt" urlsrc="http://jeebsoossvr/m/met/participant.svc"/>
+			<action name="attendservice" ext="pptm" urlsrc="http://jeebsoossvr/m/met/participant.svc"/>
+			<action name="attendservice" ext="pptx" urlsrc="http://jeebsoossvr/m/met/participant.svc"/>
+			<action name="convert" ext="pps" targetext="pptx" urlsrc="http://jeebsoossvr/p/PptConvertAndEdit.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="convert" ext="ppt" targetext="pptx" urlsrc="http://jeebsoossvr/p/PptConvertAndEdit.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="rtc" ext="odp" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="pot" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="potm" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="potx" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="pps" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="ppsm" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="ppsx" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="ppt" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="pptm" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="pptx" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="preloadedit" ext="odp" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=e&usescript=1&"<ui=UI_LLCC="">
+				"/>
+				<action name="preloadedit" ext="ppsx" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=e&usescript=1&"<ui=UI_LLCC="">
+					"/>
+					<action name="preloadedit" ext="pptx" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=e&usescript=1&"<ui=UI_LLCC="">
+						"/>
+						<action name="preloadview" ext="odp" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=v&usescript=1&"<ui=UI_LLCC="">
+							"/>
+							<action name="preloadview" ext="pot" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=v&usescript=1&"<ui=UI_LLCC="">
+								"/>
+								<action name="preloadview" ext="potm" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=v&usescript=1&"<ui=UI_LLCC="">
+									"/>
+									<action name="preloadview" ext="potx" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=v&usescript=1&"<ui=UI_LLCC="">
+										"/>
+										<action name="preloadview" ext="pps" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=v&usescript=1&"<ui=UI_LLCC="">
+											"/>
+											<action name="preloadview" ext="ppsm" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=v&usescript=1&"<ui=UI_LLCC="">
+												"/>
+												<action name="preloadview" ext="ppsx" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=v&usescript=1&"<ui=UI_LLCC="">
+													"/>
+													<action name="preloadview" ext="ppt" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=v&usescript=1&"<ui=UI_LLCC="">
+														"/>
+														<action name="preloadview" ext="pptm" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=v&usescript=1&"<ui=UI_LLCC="">
+															"/>
+															<action name="preloadview" ext="pptx" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=v&usescript=1&"<ui=UI_LLCC="">
+																"/>
+																<action name="collab" ext="pptx" urlsrc="http://jeebsoossvr/ocs/Join.ashx?app=powerpoint"/>
+																<action name="documentchat" ext="odp" urlsrc="http://jeebsoossvr/p/SkypeProxy.ashx"/>
+																<action name="documentchat" ext="pot" urlsrc="http://jeebsoossvr/p/SkypeProxy.ashx"/>
+																<action name="documentchat" ext="potm" urlsrc="http://jeebsoossvr/p/SkypeProxy.ashx"/>
+																<action name="documentchat" ext="potx" urlsrc="http://jeebsoossvr/p/SkypeProxy.ashx"/>
+																<action name="documentchat" ext="pps" urlsrc="http://jeebsoossvr/p/SkypeProxy.ashx"/>
+																<action name="documentchat" ext="ppsm" urlsrc="http://jeebsoossvr/p/SkypeProxy.ashx"/>
+																<action name="documentchat" ext="ppsx" urlsrc="http://jeebsoossvr/p/SkypeProxy.ashx"/>
+																<action name="documentchat" ext="ppt" urlsrc="http://jeebsoossvr/p/SkypeProxy.ashx"/>
+																<action name="documentchat" ext="pptm" urlsrc="http://jeebsoossvr/p/SkypeProxy.ashx"/>
+																<action name="documentchat" ext="pptx" urlsrc="http://jeebsoossvr/p/SkypeProxy.ashx"/>
+																<action name="preloadunifiedapp" ext="pptx" urlsrc="http://jeebsoossvr/pods/StaticLoad.aspx?wx=p&wv=e&usescript=1&"<ui=UI_LLCC="">"/>
+
+		</app>
+		<app name="Word" favIconUrl="http://jeebsoossvr/wv/resources/1033/FavIcon_Word.ico" bootstrapperUrl="http://jeebsoossvr/wv/App_Scripts/word.boot.js" checkLicense="true">
+			<action name="view" ext="doc" default="true" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="docm" default="true" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="docx" default="true" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="dot" default="true" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="dotm" default="true" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="dotx" default="true" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="odt" default="true" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="rtf" default="true" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="edit" ext="docm" requires="locks,update" urlsrc="http://jeebsoossvr/we/wordeditorframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="edit" ext="docx" requires="locks,update" urlsrc="http://jeebsoossvr/we/wordeditorframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="edit" ext="odt" requires="locks,update" urlsrc="http://jeebsoossvr/we/wordeditorframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="editnew" ext="docx" requires="locks,update" urlsrc="http://jeebsoossvr/we/wordeditorframe.aspx?new=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="editnew" ext="dotx" requires="locks,update" newext="docx" urlsrc="http://jeebsoossvr/we/wordeditorframe.aspx?new=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="editnew" ext="odt" requires="locks,update" urlsrc="http://jeebsoossvr/we/wordeditorframe.aspx?new=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="imagepreview" ext="doc" urlsrc="http://jeebsoossvr/wv/WordPreviewHandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="imagepreview" ext="docm" urlsrc="http://jeebsoossvr/wv/WordPreviewHandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="imagepreview" ext="docx" urlsrc="http://jeebsoossvr/wv/WordPreviewHandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="imagepreview" ext="dot" urlsrc="http://jeebsoossvr/wv/WordPreviewHandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="imagepreview" ext="dotm" urlsrc="http://jeebsoossvr/wv/WordPreviewHandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="imagepreview" ext="dotx" urlsrc="http://jeebsoossvr/wv/WordPreviewHandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="imagepreview" ext="odt" urlsrc="http://jeebsoossvr/wv/WordPreviewHandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="imagepreview" ext="rtf" urlsrc="http://jeebsoossvr/wv/WordPreviewHandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="interactivepreview" ext="doc" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="interactivepreview" ext="docm" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="interactivepreview" ext="docx" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="interactivepreview" ext="dot" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="interactivepreview" ext="dotm" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="interactivepreview" ext="dotx" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="interactivepreview" ext="odt" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="interactivepreview" ext="rtf" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="mobileView" ext="doc" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="mobileView" ext="docm" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="mobileView" ext="docx" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="mobileView" ext="dot" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="mobileView" ext="dotm" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="mobileView" ext="dotx" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embedview" ext="doc" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embedview" ext="docm" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embedview" ext="docx" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embedview" ext="dot" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embedview" ext="dotm" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embedview" ext="dotx" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embedview" ext="odt" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embedview" ext="rtf" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="attend" ext="doc" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=1&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="attend" ext="docm" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=1&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="attend" ext="docx" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=1&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="attend" ext="dot" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=1&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="attend" ext="dotm" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=1&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="attend" ext="dotx" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=1&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="convert" ext="doc" targetext="docx" urlsrc="http://jeebsoossvr/we/WordConvertAndEdit.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="rtc" ext="doc" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="docm" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="docx" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="dot" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="dotm" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="dotx" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="odt" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="preloadedit" ext="docm" urlsrc="http://jeebsoossvr/we/StaticLoad.aspx?wx=w&wv=e&usescript=1&"<ui=UI_LLCC="">
+				"/>
+				<action name="preloadedit" ext="docx" urlsrc="http://jeebsoossvr/we/StaticLoad.aspx?wx=w&wv=e&usescript=1&"<ui=UI_LLCC="">
+					"/>
+					<action name="preloadedit" ext="odt" urlsrc="http://jeebsoossvr/we/StaticLoad.aspx?wx=w&wv=e&usescript=1&"<ui=UI_LLCC="">
+						"/>
+						<action name="preloadview" ext="doc" urlsrc="http://jeebsoossvr/wv/StaticLoad.aspx?wx=w&wv=v&usescript=1&"<ui=UI_LLCC="">
+							"/>
+							<action name="preloadview" ext="docm" urlsrc="http://jeebsoossvr/wv/StaticLoad.aspx?wx=w&wv=v&usescript=1&"<ui=UI_LLCC="">
+								"/>
+								<action name="preloadview" ext="docx" urlsrc="http://jeebsoossvr/wv/StaticLoad.aspx?wx=w&wv=v&usescript=1&"<ui=UI_LLCC="">
+									"/>
+									<action name="preloadview" ext="dot" urlsrc="http://jeebsoossvr/wv/StaticLoad.aspx?wx=w&wv=v&usescript=1&"<ui=UI_LLCC="">
+										"/>
+										<action name="preloadview" ext="dotm" urlsrc="http://jeebsoossvr/wv/StaticLoad.aspx?wx=w&wv=v&usescript=1&"<ui=UI_LLCC="">
+											"/>
+											<action name="preloadview" ext="dotx" urlsrc="http://jeebsoossvr/wv/StaticLoad.aspx?wx=w&wv=v&usescript=1&"<ui=UI_LLCC="">
+												"/>
+												<action name="preloadview" ext="odt" urlsrc="http://jeebsoossvr/wv/StaticLoad.aspx?wx=w&wv=v&usescript=1&"<ui=UI_LLCC="">
+													"/>
+													<action name="preloadview" ext="rtf" urlsrc="http://jeebsoossvr/wv/StaticLoad.aspx?wx=w&wv=v&usescript=1&"<ui=UI_LLCC="">
+														"/>
+														<action name="collab" ext="docx" urlsrc="http://jeebsoossvr/ocs/Join.ashx?app=word"/>
+														<action name="documentchat" ext="doc" urlsrc="http://jeebsoossvr/we/SkypeProxy.ashx"/>
+														<action name="documentchat" ext="docm" urlsrc="http://jeebsoossvr/we/SkypeProxy.ashx"/>
+														<action name="documentchat" ext="docx" urlsrc="http://jeebsoossvr/we/SkypeProxy.ashx"/>
+														<action name="documentchat" ext="dot" urlsrc="http://jeebsoossvr/we/SkypeProxy.ashx"/>
+														<action name="documentchat" ext="dotm" urlsrc="http://jeebsoossvr/we/SkypeProxy.ashx"/>
+														<action name="documentchat" ext="dotx" urlsrc="http://jeebsoossvr/we/SkypeProxy.ashx"/>
+														<action name="documentchat" ext="odt" urlsrc="http://jeebsoossvr/we/SkypeProxy.ashx"/>
+														<action name="open" ext="docx" requires="cobalt" urlsrc="http://jeebsoossvr/we/wordeditorframe.aspx?unified=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+													</app>
+		<app name="WordPdf" favIconUrl="http://jeebsoossvr/wv/resources/1033/FavIcon_Word.ico" checkLicense="true">
+			<action name="view" ext="pdf" default="true" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?PdfMode=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="imagepreview" ext="pdf" urlsrc="http://jeebsoossvr/wv/WordPreviewHandler.ashx?PdfMode=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="interactivepreview" ext="pdf" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&PdfMode=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embedview" ext="pdf" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&PdfMode=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="rtc" ext="pdf" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="preloadview" ext="pdf" urlsrc="http://jeebsoossvr/wv/StaticLoad.aspx?wx=w&wv=v&usescript=1&"<ui=UI_LLCC="">"/>
+
+		</app>
+	</net-zone>
+	<net-zone name="external-http">
+		<app name="Excel" favIconUrl="http://jeebsoossvr/x/_layouts/resources/FavIcon_Excel.ico" checkLicense="true">
+			<action name="view" ext="csv" default="true" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="ods" default="true" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="xls" default="true" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="xlsb" default="true" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="xlsm" default="true" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="xlsx" default="true" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="edit" ext="ods" requires="update" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?edit=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="edit" ext="xlsb" requires="update" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?edit=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="edit" ext="xlsm" requires="update" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?edit=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="edit" ext="xlsx" requires="update" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?edit=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="editnew" ext="xlsx" requires="update" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?edit=1&new=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="interactivepreview" ext="xlsb" urlsrc="http://jeebsoossvr/x/_layouts/xlpreview.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="interactivepreview" ext="xlsm" urlsrc="http://jeebsoossvr/x/_layouts/xlpreview.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="interactivepreview" ext="xlsx" urlsrc="http://jeebsoossvr/x/_layouts/xlpreview.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="csv" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="xls" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="xlsb" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="xlsm" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="xlsx" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="xlsb" urlsrc="http://jeebsoossvr/x/_layouts/xlembed.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="xlsm" urlsrc="http://jeebsoossvr/x/_layouts/xlembed.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="xlsx" urlsrc="http://jeebsoossvr/x/_layouts/xlembed.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="convert" ext="csv" targetext="xlsx" requires="update" urlsrc="http://jeebsoossvr/x/_layouts/ExcelConvertAndEdit.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="convert" ext="xls" targetext="xlsx" requires="update" urlsrc="http://jeebsoossvr/x/_layouts/ExcelConvertAndEdit.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="formsubmit" ext="xlsb" urlsrc="http://jeebsoossvr/x/_layouts/xlform.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="formsubmit" ext="xlsm" urlsrc="http://jeebsoossvr/x/_layouts/xlform.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="formsubmit" ext="xlsx" urlsrc="http://jeebsoossvr/x/_layouts/xlform.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="formedit" ext="xlsb" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?edit=1&startupDialog=FormEdit&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="formedit" ext="xlsm" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?edit=1&startupDialog=FormEdit&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="formedit" ext="xlsx" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?edit=1&startupDialog=FormEdit&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="rest" ext="xlsb" urlsrc="http://jeebsoossvr/x/_layouts/xlrestinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="rest" ext="xlsm" urlsrc="http://jeebsoossvr/x/_layouts/xlrestinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="rest" ext="xlsx" urlsrc="http://jeebsoossvr/x/_layouts/xlrestinternal.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="syndicate" ext="ods" urlsrc="http://jeebsoossvr/x/_layouts/exceljs.ashx?v=1&dsipb=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="syndicate" ext="xlsb" urlsrc="http://jeebsoossvr/x/_layouts/exceljs.ashx?v=1&dsipb=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="syndicate" ext="xlsm" urlsrc="http://jeebsoossvr/x/_layouts/exceljs.ashx?v=1&dsipb=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="syndicate" ext="xlsx" urlsrc="http://jeebsoossvr/x/_layouts/exceljs.ashx?v=1&dsipb=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="legacywebservice" progid="Excel.LegacyWebService" urlsrc="http://jeebsoossvr/x/_vti_bin/excelserviceinternal.asmx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="legacywebservice" ext="ods" urlsrc="http://jeebsoossvr/x/_vti_bin/excelserviceinternal.asmx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="legacywebservice" ext="xlsb" urlsrc="http://jeebsoossvr/x/_vti_bin/excelserviceinternal.asmx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="legacywebservice" ext="xlsm" urlsrc="http://jeebsoossvr/x/_vti_bin/excelserviceinternal.asmx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="legacywebservice" ext="xlsx" urlsrc="http://jeebsoossvr/x/_vti_bin/excelserviceinternal.asmx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="rtc" ext="ods" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="xls" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="xlsb" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="xlsm" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="xlsx" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="preloadedit" ext="ods" urlsrc="http://jeebsoossvr/x/StaticLoad.aspx?wx=x&wv=e&usescript=1&"<ui=UI_LLCC="">
+				"/>
+				<action name="preloadedit" ext="xlsb" urlsrc="http://jeebsoossvr/x/StaticLoad.aspx?wx=x&wv=e&usescript=1&"<ui=UI_LLCC="">
+					"/>
+					<action name="preloadedit" ext="xlsm" urlsrc="http://jeebsoossvr/x/StaticLoad.aspx?wx=x&wv=e&usescript=1&"<ui=UI_LLCC="">
+						"/>
+						<action name="preloadedit" ext="xlsx" urlsrc="http://jeebsoossvr/x/StaticLoad.aspx?wx=x&wv=e&usescript=1&"<ui=UI_LLCC="">
+							"/>
+							<action name="preloadview" ext="ods" urlsrc="http://jeebsoossvr/x/StaticLoad.aspx?wx=x&wv=v&usescript=1&"<ui=UI_LLCC="">
+								"/>
+								<action name="preloadview" ext="xls" urlsrc="http://jeebsoossvr/x/StaticLoad.aspx?wx=x&wv=v&usescript=1&"<ui=UI_LLCC="">
+									"/>
+									<action name="preloadview" ext="xlsb" urlsrc="http://jeebsoossvr/x/StaticLoad.aspx?wx=x&wv=v&usescript=1&"<ui=UI_LLCC="">
+										"/>
+										<action name="preloadview" ext="xlsm" urlsrc="http://jeebsoossvr/x/StaticLoad.aspx?wx=x&wv=v&usescript=1&"<ui=UI_LLCC="">
+											"/>
+											<action name="preloadview" ext="xlsx" urlsrc="http://jeebsoossvr/x/StaticLoad.aspx?wx=x&wv=v&usescript=1&"<ui=UI_LLCC="">
+												"/>
+												<action name="collab" ext="xlsx" urlsrc="http://jeebsoossvr/ocs/Join.ashx?app=excel"/>
+												<action name="formpreview" ext="xlsb" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?edit=1&startupDialog=FormPreview&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+												<action name="formpreview" ext="xlsm" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?edit=1&startupDialog=FormPreview&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+												<action name="formpreview" ext="xlsx" urlsrc="http://jeebsoossvr/x/_layouts/xlviewerinternal.aspx?edit=1&startupDialog=FormPreview&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+												<action name="documentchat" ext="ods" urlsrc="http://jeebsoossvr/x/_layouts/SkypeProxy.ashx"/>
+												<action name="documentchat" ext="xls" urlsrc="http://jeebsoossvr/x/_layouts/SkypeProxy.ashx"/>
+												<action name="documentchat" ext="xlsb" urlsrc="http://jeebsoossvr/x/_layouts/SkypeProxy.ashx"/>
+												<action name="documentchat" ext="xlsm" urlsrc="http://jeebsoossvr/x/_layouts/SkypeProxy.ashx"/>
+												<action name="documentchat" ext="xlsx" urlsrc="http://jeebsoossvr/x/_layouts/SkypeProxy.ashx"/>
+												<action name="embedpreview" ext="xlsb" urlsrc="http://jeebsoossvr/x/_layouts/xlembedpreview.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+												<action name="embedpreview" ext="xlsm" urlsrc="http://jeebsoossvr/x/_layouts/xlembedpreview.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+												<action name="embedpreview" ext="xlsx" urlsrc="http://jeebsoossvr/x/_layouts/xlembedpreview.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+												<action name="embedconfigurator" ext="xlsb" urlsrc="http://jeebsoossvr/x/_layouts/xlembedconfigurator.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+												<action name="embedconfigurator" ext="xlsm" urlsrc="http://jeebsoossvr/x/_layouts/xlembedconfigurator.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+												<action name="embedconfigurator" ext="xlsx" urlsrc="http://jeebsoossvr/x/_layouts/xlembedconfigurator.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+											</app>
+		<app name="OneNote" favIconUrl="http://jeebsoossvr/o/resources/1033/FavIcon_OneNote.ico" checkLicense="true">
+			<action name="view" progid="OneNote.Notebook" requires="cobalt,containers" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?edit=0&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="view" ext="one" requires="cobalt,containers" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?edit=0&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="view" ext="onetoc2" useParent="true" requires="cobalt,containers" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?edit=0&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="edit" progid="OneNote.Notebook" default="true" requires="cobalt,containers,update" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="edit" ext="one" default="true" requires="cobalt,containers,update" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="edit" ext="onetoc2" useParent="true" default="true" requires="cobalt,containers,update" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="editnew" progid="OneNote.Notebook" requires="cobalt,containers,update" newprogid="OneNote.Notebook" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?edit=1&new=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="editnew" ext="one" requires="cobalt,containers,update" newprogid="OneNote.Notebook" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?edit=1&new=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="editnew" ext="onepkg" requires="cobalt,containers,update" newprogid="OneNote.Notebook" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?edit=1&new=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embedview" progid="OneNote.Notebook" requires="cobalt,containers,update" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?embed=1&edit=0&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embedview" ext="one" requires="cobalt,containers,update" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?embed=1&edit=0&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embedview" ext="onetoc2" useParent="true" requires="cobalt,containers,update" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?embed=1&edit=0&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embededit" ext="onetoc2" useParent="true" requires="cobalt,containers,update" urlsrc="http://jeebsoossvr/o/onenoteframe.aspx?embed=1&edit=1&singlepage=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="rtc" ext="one" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="onetoc2" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="preloadedit" ext="one" urlsrc="http://jeebsoossvr/o/StaticLoad.aspx?wx=o&wv=e&usescript=1&"<ui=UI_LLCC="">
+				"/>
+				<action name="preloadedit" ext="onetoc2" urlsrc="http://jeebsoossvr/o/StaticLoad.aspx?wx=o&wv=e&usescript=1&"<ui=UI_LLCC="">
+					"/>
+					<action name="preloadview" ext="one" urlsrc="http://jeebsoossvr/o/StaticLoad.aspx?wx=o&wv=v&usescript=1&"<ui=UI_LLCC="">
+						"/>
+						<action name="preloadview" ext="onetoc2" urlsrc="http://jeebsoossvr/o/StaticLoad.aspx?wx=o&wv=v&usescript=1&"<ui=UI_LLCC="">
+							"/>
+							<action name="documentchat" ext="one" urlsrc="http://jeebsoossvr/o/SkypeProxy.ashx"/>
+							<action name="documentchat" ext="onetoc2" urlsrc="http://jeebsoossvr/o/SkypeProxy.ashx"/>
+						</app>
+		<app name="PowerPoint" favIconUrl="http://jeebsoossvr/p/resources/1033/FavIcon_Ppt.ico" checkLicense="true">
+			<action name="view" ext="odp" default="true" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="pot" default="true" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="potm" default="true" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="potx" default="true" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="pps" default="true" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="ppsm" default="true" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="ppsx" default="true" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="ppt" default="true" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="pptm" default="true" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="pptx" default="true" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="edit" ext="odp" requires="update" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=EditView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="edit" ext="ppsx" requires="update" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=EditView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="edit" ext="pptx" requires="update" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=EditView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="editnew" ext="odp" requires="update" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=EditView&New=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="editnew" ext="pptx" requires="update" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=EditView&New=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="imagepreview" ext="odp" urlsrc="http://jeebsoossvr/p/previewhandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="imagepreview" ext="pot" urlsrc="http://jeebsoossvr/p/previewhandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="imagepreview" ext="potm" urlsrc="http://jeebsoossvr/p/previewhandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="imagepreview" ext="potx" urlsrc="http://jeebsoossvr/p/previewhandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="imagepreview" ext="pps" urlsrc="http://jeebsoossvr/p/previewhandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="imagepreview" ext="ppsm" urlsrc="http://jeebsoossvr/p/previewhandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="imagepreview" ext="ppsx" urlsrc="http://jeebsoossvr/p/previewhandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="imagepreview" ext="ppt" urlsrc="http://jeebsoossvr/p/previewhandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="imagepreview" ext="pptm" urlsrc="http://jeebsoossvr/p/previewhandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="imagepreview" ext="pptx" urlsrc="http://jeebsoossvr/p/previewhandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="interactivepreview" ext="odp" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="interactivepreview" ext="pot" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="interactivepreview" ext="potm" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="interactivepreview" ext="potx" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="interactivepreview" ext="pps" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="interactivepreview" ext="ppsm" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="interactivepreview" ext="ppsx" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="interactivepreview" ext="ppt" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="interactivepreview" ext="pptm" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="interactivepreview" ext="pptx" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="pot" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="potm" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="potx" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="pps" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="ppsm" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="ppsx" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="ppt" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="pptm" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="mobileView" ext="pptx" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ReadingView&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="odp" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="pot" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="potm" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="potx" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="pps" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="ppsm" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="ppsx" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="ppt" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="pptm" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="embedview" ext="pptx" urlsrc="http://jeebsoossvr/p/PowerPointFrame.aspx?PowerPointView=ChromelessView&Embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="present" ext="pot" urlsrc="http://jeebsoossvr/m/Presenter.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="present" ext="potm" urlsrc="http://jeebsoossvr/m/Presenter.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="present" ext="potx" urlsrc="http://jeebsoossvr/m/Presenter.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="present" ext="pps" urlsrc="http://jeebsoossvr/m/Presenter.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="present" ext="ppsm" urlsrc="http://jeebsoossvr/m/Presenter.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="present" ext="ppsx" urlsrc="http://jeebsoossvr/m/Presenter.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="present" ext="ppt" urlsrc="http://jeebsoossvr/m/Presenter.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="present" ext="pptm" urlsrc="http://jeebsoossvr/m/Presenter.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="present" ext="pptx" urlsrc="http://jeebsoossvr/m/Presenter.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="presentservice" ext="pot" urlsrc="http://jeebsoossvr/m/present_2_0.asmx"/>
+			<action name="presentservice" ext="potm" urlsrc="http://jeebsoossvr/m/present_2_0.asmx"/>
+			<action name="presentservice" ext="potx" urlsrc="http://jeebsoossvr/m/present_2_0.asmx"/>
+			<action name="presentservice" ext="pps" urlsrc="http://jeebsoossvr/m/present_2_0.asmx"/>
+			<action name="presentservice" ext="ppsm" urlsrc="http://jeebsoossvr/m/present_2_0.asmx"/>
+			<action name="presentservice" ext="ppsx" urlsrc="http://jeebsoossvr/m/present_2_0.asmx"/>
+			<action name="presentservice" ext="ppt" urlsrc="http://jeebsoossvr/m/present_2_0.asmx"/>
+			<action name="presentservice" ext="pptm" urlsrc="http://jeebsoossvr/m/present_2_0.asmx"/>
+			<action name="presentservice" ext="pptx" urlsrc="http://jeebsoossvr/m/present_2_0.asmx"/>
+			<action name="attend" ext="pot" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="attend" ext="potm" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="attend" ext="potx" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="attend" ext="pps" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="attend" ext="ppsm" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="attend" ext="ppsx" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="attend" ext="ppt" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="attend" ext="pptm" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="attend" ext="pptx" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=0&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="attendservice" ext="pot" urlsrc="http://jeebsoossvr/m/met/participant.svc"/>
+			<action name="attendservice" ext="potm" urlsrc="http://jeebsoossvr/m/met/participant.svc"/>
+			<action name="attendservice" ext="potx" urlsrc="http://jeebsoossvr/m/met/participant.svc"/>
+			<action name="attendservice" ext="pps" urlsrc="http://jeebsoossvr/m/met/participant.svc"/>
+			<action name="attendservice" ext="ppsm" urlsrc="http://jeebsoossvr/m/met/participant.svc"/>
+			<action name="attendservice" ext="ppsx" urlsrc="http://jeebsoossvr/m/met/participant.svc"/>
+			<action name="attendservice" ext="ppt" urlsrc="http://jeebsoossvr/m/met/participant.svc"/>
+			<action name="attendservice" ext="pptm" urlsrc="http://jeebsoossvr/m/met/participant.svc"/>
+			<action name="attendservice" ext="pptx" urlsrc="http://jeebsoossvr/m/met/participant.svc"/>
+			<action name="convert" ext="pps" targetext="pptx" urlsrc="http://jeebsoossvr/p/PptConvertAndEdit.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="convert" ext="ppt" targetext="pptx" urlsrc="http://jeebsoossvr/p/PptConvertAndEdit.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&>"/>
+			<action name="rtc" ext="odp" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="pot" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="potm" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="potx" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="pps" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="ppsm" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="ppsx" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="ppt" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="pptm" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="pptx" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="preloadedit" ext="odp" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=e&usescript=1&"<ui=UI_LLCC="">
+				"/>
+				<action name="preloadedit" ext="ppsx" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=e&usescript=1&"<ui=UI_LLCC="">
+					"/>
+					<action name="preloadedit" ext="pptx" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=e&usescript=1&"<ui=UI_LLCC="">
+						"/>
+						<action name="preloadview" ext="odp" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=v&usescript=1&"<ui=UI_LLCC="">
+							"/>
+							<action name="preloadview" ext="pot" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=v&usescript=1&"<ui=UI_LLCC="">
+								"/>
+								<action name="preloadview" ext="potm" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=v&usescript=1&"<ui=UI_LLCC="">
+									"/>
+									<action name="preloadview" ext="potx" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=v&usescript=1&"<ui=UI_LLCC="">
+										"/>
+										<action name="preloadview" ext="pps" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=v&usescript=1&"<ui=UI_LLCC="">
+											"/>
+											<action name="preloadview" ext="ppsm" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=v&usescript=1&"<ui=UI_LLCC="">
+												"/>
+												<action name="preloadview" ext="ppsx" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=v&usescript=1&"<ui=UI_LLCC="">
+													"/>
+													<action name="preloadview" ext="ppt" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=v&usescript=1&"<ui=UI_LLCC="">
+														"/>
+														<action name="preloadview" ext="pptm" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=v&usescript=1&"<ui=UI_LLCC="">
+															"/>
+															<action name="preloadview" ext="pptx" urlsrc="http://jeebsoossvr/p/StaticLoad.aspx?wx=p&wv=v&usescript=1&"<ui=UI_LLCC="">
+																"/>
+																<action name="collab" ext="pptx" urlsrc="http://jeebsoossvr/ocs/Join.ashx?app=powerpoint"/>
+																<action name="documentchat" ext="odp" urlsrc="http://jeebsoossvr/p/SkypeProxy.ashx"/>
+																<action name="documentchat" ext="pot" urlsrc="http://jeebsoossvr/p/SkypeProxy.ashx"/>
+																<action name="documentchat" ext="potm" urlsrc="http://jeebsoossvr/p/SkypeProxy.ashx"/>
+																<action name="documentchat" ext="potx" urlsrc="http://jeebsoossvr/p/SkypeProxy.ashx"/>
+																<action name="documentchat" ext="pps" urlsrc="http://jeebsoossvr/p/SkypeProxy.ashx"/>
+																<action name="documentchat" ext="ppsm" urlsrc="http://jeebsoossvr/p/SkypeProxy.ashx"/>
+																<action name="documentchat" ext="ppsx" urlsrc="http://jeebsoossvr/p/SkypeProxy.ashx"/>
+																<action name="documentchat" ext="ppt" urlsrc="http://jeebsoossvr/p/SkypeProxy.ashx"/>
+																<action name="documentchat" ext="pptm" urlsrc="http://jeebsoossvr/p/SkypeProxy.ashx"/>
+																<action name="documentchat" ext="pptx" urlsrc="http://jeebsoossvr/p/SkypeProxy.ashx"/>
+																<action name="preloadunifiedapp" ext="pptx" urlsrc="http://jeebsoossvr/pods/StaticLoad.aspx?wx=p&wv=e&usescript=1&"<ui=UI_LLCC="">"/>
+
+		</app>
+		<app name="Word" favIconUrl="http://jeebsoossvr/wv/resources/1033/FavIcon_Word.ico" bootstrapperUrl="http://jeebsoossvr/wv/App_Scripts/word.boot.js" checkLicense="true">
+			<action name="view" ext="doc" default="true" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="docm" default="true" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="docx" default="true" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="dot" default="true" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="dotm" default="true" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="dotx" default="true" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="odt" default="true" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="view" ext="rtf" default="true" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="edit" ext="docm" requires="locks,update" urlsrc="http://jeebsoossvr/we/wordeditorframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="edit" ext="docx" requires="locks,update" urlsrc="http://jeebsoossvr/we/wordeditorframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="edit" ext="odt" requires="locks,update" urlsrc="http://jeebsoossvr/we/wordeditorframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="editnew" ext="docx" requires="locks,update" urlsrc="http://jeebsoossvr/we/wordeditorframe.aspx?new=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="editnew" ext="dotx" requires="locks,update" newext="docx" urlsrc="http://jeebsoossvr/we/wordeditorframe.aspx?new=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="editnew" ext="odt" requires="locks,update" urlsrc="http://jeebsoossvr/we/wordeditorframe.aspx?new=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+			<action name="imagepreview" ext="doc" urlsrc="http://jeebsoossvr/wv/WordPreviewHandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="imagepreview" ext="docm" urlsrc="http://jeebsoossvr/wv/WordPreviewHandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="imagepreview" ext="docx" urlsrc="http://jeebsoossvr/wv/WordPreviewHandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="imagepreview" ext="dot" urlsrc="http://jeebsoossvr/wv/WordPreviewHandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="imagepreview" ext="dotm" urlsrc="http://jeebsoossvr/wv/WordPreviewHandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="imagepreview" ext="dotx" urlsrc="http://jeebsoossvr/wv/WordPreviewHandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="imagepreview" ext="odt" urlsrc="http://jeebsoossvr/wv/WordPreviewHandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="imagepreview" ext="rtf" urlsrc="http://jeebsoossvr/wv/WordPreviewHandler.ashx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="interactivepreview" ext="doc" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="interactivepreview" ext="docm" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="interactivepreview" ext="docx" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="interactivepreview" ext="dot" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="interactivepreview" ext="dotm" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="interactivepreview" ext="dotx" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="interactivepreview" ext="odt" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="interactivepreview" ext="rtf" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="mobileView" ext="doc" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="mobileView" ext="docm" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="mobileView" ext="docx" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="mobileView" ext="dot" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="mobileView" ext="dotm" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="mobileView" ext="dotx" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embedview" ext="doc" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embedview" ext="docm" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embedview" ext="docx" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embedview" ext="dot" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embedview" ext="dotm" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embedview" ext="dotx" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embedview" ext="odt" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embedview" ext="rtf" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="attend" ext="doc" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=1&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="attend" ext="docm" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=1&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="attend" ext="docx" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=1&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="attend" ext="dot" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=1&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="attend" ext="dotm" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=1&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="attend" ext="dotx" urlsrc="http://jeebsoossvr/m/ParticipantFrame.aspx?a=1&"<e=EMBEDDED=""&><fs=FULLSCREEN=""&><rec=RECORDING=""&><thm=THEME_ID=""&><na=DISABLE_ASYNC=""&><vp=DISABLE_BROADCAST=""&><ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="convert" ext="doc" targetext="docx" urlsrc="http://jeebsoossvr/we/WordConvertAndEdit.aspx?"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="rtc" ext="doc" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="docm" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="docx" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="dot" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="dotm" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="dotx" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="rtc" ext="odt" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="preloadedit" ext="docm" urlsrc="http://jeebsoossvr/we/StaticLoad.aspx?wx=w&wv=e&usescript=1&"<ui=UI_LLCC="">
+				"/>
+				<action name="preloadedit" ext="docx" urlsrc="http://jeebsoossvr/we/StaticLoad.aspx?wx=w&wv=e&usescript=1&"<ui=UI_LLCC="">
+					"/>
+					<action name="preloadedit" ext="odt" urlsrc="http://jeebsoossvr/we/StaticLoad.aspx?wx=w&wv=e&usescript=1&"<ui=UI_LLCC="">
+						"/>
+						<action name="preloadview" ext="doc" urlsrc="http://jeebsoossvr/wv/StaticLoad.aspx?wx=w&wv=v&usescript=1&"<ui=UI_LLCC="">
+							"/>
+							<action name="preloadview" ext="docm" urlsrc="http://jeebsoossvr/wv/StaticLoad.aspx?wx=w&wv=v&usescript=1&"<ui=UI_LLCC="">
+								"/>
+								<action name="preloadview" ext="docx" urlsrc="http://jeebsoossvr/wv/StaticLoad.aspx?wx=w&wv=v&usescript=1&"<ui=UI_LLCC="">
+									"/>
+									<action name="preloadview" ext="dot" urlsrc="http://jeebsoossvr/wv/StaticLoad.aspx?wx=w&wv=v&usescript=1&"<ui=UI_LLCC="">
+										"/>
+										<action name="preloadview" ext="dotm" urlsrc="http://jeebsoossvr/wv/StaticLoad.aspx?wx=w&wv=v&usescript=1&"<ui=UI_LLCC="">
+											"/>
+											<action name="preloadview" ext="dotx" urlsrc="http://jeebsoossvr/wv/StaticLoad.aspx?wx=w&wv=v&usescript=1&"<ui=UI_LLCC="">
+												"/>
+												<action name="preloadview" ext="odt" urlsrc="http://jeebsoossvr/wv/StaticLoad.aspx?wx=w&wv=v&usescript=1&"<ui=UI_LLCC="">
+													"/>
+													<action name="preloadview" ext="rtf" urlsrc="http://jeebsoossvr/wv/StaticLoad.aspx?wx=w&wv=v&usescript=1&"<ui=UI_LLCC="">
+														"/>
+														<action name="collab" ext="docx" urlsrc="http://jeebsoossvr/ocs/Join.ashx?app=word"/>
+														<action name="documentchat" ext="doc" urlsrc="http://jeebsoossvr/we/SkypeProxy.ashx"/>
+														<action name="documentchat" ext="docm" urlsrc="http://jeebsoossvr/we/SkypeProxy.ashx"/>
+														<action name="documentchat" ext="docx" urlsrc="http://jeebsoossvr/we/SkypeProxy.ashx"/>
+														<action name="documentchat" ext="dot" urlsrc="http://jeebsoossvr/we/SkypeProxy.ashx"/>
+														<action name="documentchat" ext="dotm" urlsrc="http://jeebsoossvr/we/SkypeProxy.ashx"/>
+														<action name="documentchat" ext="dotx" urlsrc="http://jeebsoossvr/we/SkypeProxy.ashx"/>
+														<action name="documentchat" ext="odt" urlsrc="http://jeebsoossvr/we/SkypeProxy.ashx"/>
+														<action name="open" ext="docx" requires="cobalt" urlsrc="http://jeebsoossvr/we/wordeditorframe.aspx?unified=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&><IsLicensedUser=BUSINESS_USER=""&>"/>
+													</app>
+		<app name="WordPdf" favIconUrl="http://jeebsoossvr/wv/resources/1033/FavIcon_Word.ico" checkLicense="true">
+			<action name="view" ext="pdf" default="true" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?PdfMode=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="imagepreview" ext="pdf" urlsrc="http://jeebsoossvr/wv/WordPreviewHandler.ashx?PdfMode=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="interactivepreview" ext="pdf" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&PdfMode=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="embedview" ext="pdf" urlsrc="http://jeebsoossvr/wv/wordviewerframe.aspx?embed=1&PdfMode=1&"<ui=UI_LLCC=""&><rs=DC_LLCC=""&><dchat=DISABLE_CHAT=""&><hid=HOST_SESSION_ID=""&><showpagestats=PERFSTATS=""&>"/>
+			<action name="rtc" ext="pdf" urlsrc="http://jeebsoossvr/rtc2/"/>
+			<action name="preloadview" ext="pdf" urlsrc="http://jeebsoossvr/wv/StaticLoad.aspx?wx=w&wv=v&usescript=1&"<ui=UI_LLCC="">"/>
+
+		</app>
+	</net-zone>
+	<proof-key oldvalue="BgIAAACkAABSU0ExAAgAAAEAAQCjbFGWNXmugZnvytVdtlHx2jYwM0Fn/CAP6h2sybY8s0hKwFNZLPz6xvyYthUkMltJPpJdUEMawULkvRNZ5chOrxOPg9LahNkTGpEi7w+JyRmxcl6ZgEzaQvj/+59Hic3ldSVFmh2wopPKBdOABO+zg32HY4VlMXBdl9m29WgAPO9ZxUOr79Yyjgf5lSfWT/uZ/imNcqdwRa2F1+twvA9oqYXLnI99u0AFgE8ethC0cTvFCXTJJvdaMPvxsoT8kfeHqxSp6WzHxZHlhfTYXpdEQ6Ysw5BsbBgctwvD01uMCk2ahmNYRcRKar5aIIN07WrqFLyDjnVxLXpTzK0XKzeq" oldmodulus="qjcrF63MU3otcXWOg7wU6mrtdIMgWr5qSsRFWGOGmk0KjFvTwwu3HBhsbJDDLKZDRJde2PSF5ZHFx2zpqRSrh/eR/ISy8fswWvcmyXQJxTtxtBC2Hk+ABUC7fY+cy4WpaA+8cOvXha1FcKdyjSn+mftP1ieV+QeOMtbvq0PFWe88AGj1ttmXXXAxZYVjh32Ds+8EgNMFypOisB2aRSV15c2JR5/7//hC2kyAmV5ysRnJiQ/vIpEaE9mE2tKDjxOvTsjlWRO95ELBGkNQXZI+SVsyJBW2mPzG+vwsWVPASkizPLbJrB3qDyD8Z0EzMDba8VG2XdXK75mBrnk1llFsow==" oldexponent="AQAB" value="BgIAAACkAABSU0ExAAgAAAEAAQBZ8515A9rqFG29VHgtWUH2AcbvKCV1v4MkDw/TK/Lr5w8j+2Kz2+tV7tWUKhQ8dzrF5K/Cdd0bpTk+LhbJE0M5eaNYQX9Dyq0T4jNMtKk4xFzl7hLoHsV9L7E8wck61l7KJNVUU71GyBBFfOD2qbt6JcUoLVrqNv0giSzKn6xOFCinubZw/fwP7Z4WUaUD0MiLIS1B00CWR4WaJyLGleLSqmj8InUKmqMnD51MUJ8SuylIzFHgtEEPs9fILuTsWTGWJgNGBk1d5pqwexI+ccJli/kUrTWKw66J8b+tv8tSu3slCHLNy6rG6H3lFbR7/2pBgvYTM006gtZzJDBbivW+" modulus="vvWKWzAkc9aCOk0zE/aCQWr/e7QV5X3oxqrLzXIIJXu7Usu/rb/xia7DijWtFPmLZcJxPhJ7sJrmXU0GRgMmljFZ7OQuyNezD0G04FHMSCm7Ep9QTJ0PJ6OaCnUi/Giq0uKVxiInmoVHlkDTQS0hi8jQA6VRFp7tD/z9cLa5pygUTqyfyiyJIP026lotKMUlerup9uB8RRDIRr1TVNUkyl7WOsnBPLEvfcUe6BLu5VzEOKm0TDPiE63KQ39BWKN5OUMTyRYuPjmlG911wq/kxTp3PBQqlNXuVevbs2L7Iw/n6/Ir0w8PJIO/dSUo78YB9kFZLXhUvW0U6toDeZ3zWQ==" exponent="AQAB"/>
+</wopi-discovery>

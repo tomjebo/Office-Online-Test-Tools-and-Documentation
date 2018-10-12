@@ -1,0 +1,183 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <!-- Enable IE Standards mode -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+    <link rel="shortcut icon"
+          href="http://f29a7891.ngrok.io/wv/resources/1033/FavIcon_Word.ico" />
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            -ms-content-zooming: none;
+        }
+
+        #office_frame {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: 0;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Tom's WOPI Test Page 7/18/2017 build 001 Host: jeebsoossvr</h1>
+        <p>
+            Use this page to test the WOPI host implementation based on:
+            <a href="https://github.com/Microsoft/Office-Online-Test-Tools-and-Documentation">Office-Online-Test-Tools-and-Documentation</a>
+        </p>
+        <button class="wopi_vw_button" id="vwDoc">View Word Document</button>
+        <button class="wopi_ve_button" id="veDoc">View Edit Document</button>
+        <button class="wopi_vw_button" id="vwXls">View Excel Spreadsheet</button>
+        <button class="wopi_em_button" id="embedDoc">Embed Word Document</button>
+        <button class="wopi_em_button" id="embedXls">Embed Excel Spreadsheet</button>
+        <button class="wopi_pv_button" id="vwPpt">View PowerPoint Presentation</button>
+    </div>
+    <!--<form id="office_form" name="office_form" target="office_frame"
+          action="<OFFICE_ONLINE_ACTION_URL>" method="post">
+        <input name="access_token" value="<ACCESS_TOKEN_VALUE>" type="hidden"/>
+        <input name="access_token_ttl" value="<ACCESS_TOKEN_TTL_VALUE>" type="hidden"/>
+        </form>-->
+    <div>
+        <form id="office_form_vwDoc" name="office_form" target="office_frame"
+              action="http://f29a7891.ngrok.io/wv/wordviewerframe.aspx?WOPISrc=http%3A%2F%2Fbfae02d3.ngrok.io%2Fwopi%2Ffiles%2FTest2.docx&access_token=DEADBEEFDEADBEEFDEADBEEF&access_token_ttl=0" method="post">
+            <input name="WOPIsrc" value="http%3A%2F%2Fbfae02d3.ngrok.io%2Fwopi%2Ffiles%2FTest2.docx" type="hidden" />
+            <input name="access_token" value="DEADBEEFDEADBEEFDEADBEEF" type="hidden" />
+            <input name="access_token_ttl" value="0" type="hidden" />
+        </form>
+
+        <form id="office_form_veDoc" name="office_form" target="office_frame"
+              action="http://f29a7891.ngrok.io/we/wordeditorframe.aspx?WOPISrc=http%3A%2F%2Fbfae02d3.ngrok.io%2Fwopi%2Ffiles%2FTest2.docx&access_token=DEADBEEFDEADBEEFDEADBEEF&access_token_ttl=0" method="post">
+            <input name="WOPIsrc" value="http%3A%2F%2Fbfae02d3.ngrok.io%2Fwopi%2Ffiles%2FTest2.docx" type="hidden" />
+            <input name="access_token" value="DEADBEEFDEADBEEFDEADBEEF" type="hidden" />
+            <input name="access_token_ttl" value="0" type="hidden" />
+        </form>
+
+        <form id="office_form_embedDoc" name="office_form" target="office_frame"
+              action="http://f29a7891.ngrok.io/wv/wordviewerframe.aspx?embed=1&WOPISrc=http%3A%2F%2Fbfae02d3.ngrok.io%2Fwopi%2Ffiles%2Ftest4.docx&access_token=DEADBEEFDEADBEEFDEADBEEF&access_token_ttl=0" method="post">
+            <input name="src" value="http://bfae02d3.ngrok.io/wopi/files/charts.docx" type="hidden" />
+            <input name="access_token" value="DEADBEEFDEADBEEFDEADBEEF" type="hidden" />
+            <input name="access_token_ttl" value="0" type="hidden" />
+        </form>
+
+        <form id="office_form_vwXls" name="office_form" target="office_frame"
+              action="http://f29a7891.ngrok.io/x/_layouts/xlviewerinternal.aspx?WOPISrc=http%3A%2F%2Fbfae02d3.ngrok.io%2Fwopi%2Ffiles%2Ftest1.xlsx&access_token=DEADBEEFDEADBEEFDEADBEEF&access_token_ttl=0" method="post">
+            <input name="WOPIsrc" value="http%3A%2F%2Fbfae02d3.ngrok.io%2Fwopi%2Ffiles%2Ftest1.xlsx" type="hidden" />
+            <input name="access_token" value="DEADBEEFDEADBEEFDEADBEEF" type="hidden" />
+            <input name="access_token_ttl" value="0" type="hidden" />
+        </form>
+
+        <form id="office_form_embedXls" name="office_form" target="office_frame"
+              action="http://f29a7891.ngrok.io/x/_layouts/xlembed.aspx?&WOPISrc=http%3A%2F%2Fbfae02d3.ngrok.io%2Fwopi%2Ffiles%2Ftest1.xlsx&access_token=DEADBEEFDEADBEEFDEADBEEF&access_token_ttl=0" method="post">
+            <input name="src" value="http://bfae02d3.ngrok.io/wopi/files/test1.xlsx" type="hidden" />
+            <input name="access_token" value="DEADBEEFDEADBEEFDEADBEEF" type="hidden" />
+            <input name="access_token_ttl" value="0" type="hidden" />
+        </form>
+
+        <form id="office_form_vwPpt" name="office_form" target="office_frame"
+              action="http://f29a7891.ngrok.io/p/PowerPointFrame.aspx?PowerPointView=ReadingView?&WOPISrc=http%3A%2F%2Fbfae02d3.ngrok.io:8888%2Fwopi%2Ffiles%2Fppt.pptx&access_token=DEADBEEFDEADBEEFDEADBEEF&access_token_ttl=0" method="post">
+            <input name="src" value="http://bfae02d3.ngrok.io:8888/wopi/files/test1.xlsx" type="hidden" />
+            <input name="access_token" value="DEADBEEFDEADBEEFDEADBEEF" type="hidden" />
+            <input name="access_token_ttl" value="0" type="hidden" />
+        </form>
+
+        <span id="frameholder"></span>
+
+        <script type="text/javascript">
+            window.addEventListener('message', receiver, false);
+            function receiver(e) {
+                // The actual message is contained in the data property of the event.
+                var msg = JSON.parse(e.data);
+                alert(msg.MessageId);
+
+                // The message ID is now a property of the message object.
+                var msgId = msg.MessageId;
+
+                // The message parameters themselves are in the Values
+                // parameter on the message object.
+                var msgData = msg.Values;
+
+                // Do something with the message here.
+            }
+
+            $('.wopi_vw_button').click(function (event) {
+                var frameholder = document.getElementById('frameholder');
+                var office_frame = document.createElement('iframe');
+                office_frame.name = 'office_frame';
+                office_frame.id = 'office_frame';
+
+                // This attribute allows true fullscreen mode in slideshow view
+                // when using PowerPoint Online's 'view' action.
+                //office_frame.setAttribute('allowfullscreen', 'true');
+
+                frameholder.appendChild(office_frame);
+
+                document.getElementById('office_form_' + event.target.id).submit();
+            });
+
+            $('.wopi_ve_button').click(function (event) {
+                var frameholder = document.getElementById('frameholder');
+                var office_frame = document.createElement('iframe');
+                office_frame.name = 'office_frame';
+                office_frame.id = 'office_frame';
+
+                // This attribute allows true fullscreen mode in slideshow view
+                // when using PowerPoint Online's 'view' action.
+                //office_frame.setAttribute('allowfullscreen', 'true');
+
+                frameholder.appendChild(office_frame);
+
+                document.getElementById('office_form_' + event.target.id).submit();
+            });
+
+            $('.wopi_pv_button').click(function (event) {
+                var frameholder = document.getElementById('frameholder');
+                var office_frame = document.createElement('iframe');
+                office_frame.name = 'office_frame';
+                office_frame.id = 'office_frame';
+
+                // This attribute allows true fullscreen mode in slideshow view
+                // when using PowerPoint Online's 'view' action.
+                //office_frame.setAttribute('allowfullscreen', 'true');
+
+                frameholder.appendChild(office_frame);
+
+                document.getElementById('office_form_' + event.target.id).submit();
+            });
+
+            $('.wopi_em_button').click(function (event) {
+                var frameholder = document.getElementById('frameholder');
+                var office_frame = document.createElement('iframe');
+                office_frame.name = 'office_frame';
+                office_frame.id = 'office_frame';
+
+                // This attribute allows true fullscreen mode in slideshow view
+                // when using PowerPoint Online's 'view' action.
+                //office_frame.setAttribute('allowfullscreen', 'true');
+
+                frameholder.appendChild(office_frame);
+
+                document.getElementById('office_form_' + event.target.id).submit();
+            });
+        </script>
+
+    </div>
+</body>
+</html>
