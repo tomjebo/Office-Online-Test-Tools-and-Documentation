@@ -42,6 +42,7 @@ namespace SampleWopiHandler
 		public string PostMessageOrigin { get; set; }
 		public string CloseUrl { get; set; }
 		public string DownloadUrl { get; set; }
+        public bool ProtectInClient { get; set; }
 
 		public string UserFriendlyName { get; set; }
 		public string SHA256 { get; set; }

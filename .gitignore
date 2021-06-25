@@ -241,3 +241,6 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+
+# Don't share .zip files
+*.zip

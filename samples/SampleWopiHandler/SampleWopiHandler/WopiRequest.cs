@@ -42,6 +42,7 @@ namespace SampleWopiHandler
         public const string SuggestedTarget = "X-WOPI-SuggestedTarget";
         public const string RelativeTarget = "X-WOPI-RelativeTarget";
         public const string OverwriteRelativeTarget = "X-WOPI-OverwriteRelativeTarget";
+        public const string CloseUrl = "X-WOPI-CloseUrl";
     }
 
     class WopiRequest
