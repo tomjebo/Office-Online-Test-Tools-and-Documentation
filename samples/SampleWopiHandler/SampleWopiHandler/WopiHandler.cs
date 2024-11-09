@@ -61,7 +61,7 @@ namespace SampleWopiHandler
         public void ProcessRequest(HttpContext context)
         {
             // WOPI ProofKey validation is an optional way that a WOPI host can ensure that the request
-            // is coming from the Office Online server that they expect to be talking to.
+            // is coming from the Office server that they expect to be talking to.
             if (!ValidateWopiProofKey(context.Request))
             {
                 context.Response.AddHeader("WopiHandlerDiag", "Proof Key Validation failure!");
